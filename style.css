@@ -16,7 +16,7 @@ header {
 }
 
 .wrapper {
-    width: 60%;
+    width: 40%;
     margin: auto;
 }
 
@@ -24,26 +24,46 @@ header {
     padding-bottom: 7px;
 }
  .card-wrapper {
-     height: 200px;
-     width: 25%;
-     padding: 7px;
+    height: 250px;
+    width: 25%;
+    padding: 7px;
  }
 
  .f-left {
-     float: left
+    float: left
  }
 
  .clearfix::after {
-     content: "";
-     display: table;
-     clear: both;
+    content: "";
+    display: table;
+    clear: both;
  }
 
  .card {
-     height: 100%;
-     width: 100%;
-     background-image: url(img/pattern.png);
-     background-size: contain;
+    height: 100%;
+    width: 100%;
+    background-image: url(img/pattern.png);
+    background-size: contain;
+    border: 1px solid black;
+    border-radius: 4%;
+    position: relative;
+ }
+
+ #air-baloon {
+    background-image: none;
+    background-color: white;
+ }
+
+ .card > img {
+    width: 100%;
+    padding-top: 20px;
+ }
+
+ .card > h2 {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
  }
 /* utility classes */
 
