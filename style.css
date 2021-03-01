@@ -9,13 +9,24 @@ body {
     background-color: #add8e6;
 }
 
+header {
+    height: 130px;
+    line-height: 130px;
+    text-align: center;
+}
+
 .wrapper {
     width: 60%;
     margin: auto;
 }
+
+.row {
+    padding-bottom: 7px;
+}
  .card-wrapper {
      height: 200px;
      width: 25%;
+     padding: 7px;
  }
 
  .f-left {
@@ -31,8 +42,8 @@ body {
  .card {
      height: 100%;
      width: 100%;
-     padding: 5px;
-     background-color: yellow;
+     background-image: url(img/pattern.png);
+     background-size: contain;
  }
 /* utility classes */
 
