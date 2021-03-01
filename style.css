@@ -54,10 +54,18 @@ header {
     background-color: white;
  }
 
+ /* le carte sono con background visibile.
+ IMG e BG WHITE sono display none.
+ quando .card:hover img h2 hanno display inline-block e background none. */
+
  .card > img {
     width: 100%;
     padding-top: 20px;
  }
+
+ /* .card > img:not(#air-baloon img), .card > h2:not(#air-baloon h2) {
+     display: none;
+ } */
 
  .card > h2 {
     width: 100%;
@@ -65,6 +73,33 @@ header {
     position: absolute;
     bottom: 10px;
  }
+/* 
+ .card:hover + .hidden-img {
+     display: inline-block;
+     background-image: none;
+ } */
+
+ .hidden-img {
+     background-image: none;
+     background-color: white;
+     display: none;
+ }
+
+ .hidden-text {
+     display: none;
+ }
+
+ .card:hover .hidden-img {
+     display: inline-block;
+
+ }
+
+ .card:hover .hidden-text {
+    display: inline-block;
+
+}
+
+
 /* utility classes */
 
 .border {
