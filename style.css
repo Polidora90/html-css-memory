@@ -22,7 +22,6 @@ header {
 header h1 {
     font-size: 70px;
     color: white;
-    text-shadow: 2px 2px #7f9ea8;
 }
 
 .wrapper {
@@ -92,17 +91,17 @@ header h1 {
     display: inline-block;
  }
 
- .card:hover .hidden-img {
+ /* .card:hover .hidden-img {
     display: inline-block;
  }
 
  .card:hover .hidden-text {
     display: block;
- }
+ } */
 
- .hidden-img, .hidden-text {
+ /* .hidden-img, .hidden-text {
      display: none;
- }
+ } */
 
  footer {
     height: 100px;
@@ -112,30 +111,28 @@ header h1 {
 
 .pink {
     color: #e61986;
-    text-shadow: 2px 2px #7f9ea8;
 }
 
 .orange {
     color: #e67919;
-    text-shadow: 2px 2px #7f9ea8;
 }
 
 .blue {
     color: #0028ff;
-    text-shadow: 2px 2px #7f9ea8;
 }
 
 .violet {
     color: #8c00ff;
-    text-shadow: 2px 2px #7f9ea8;
 }
 
 .green {
     color: #37E32A;
-    text-shadow: 2px 2px #7f9ea8;
 }
 
 .red {
     color: #F1090C;
+}
+
+.card h2, header h1 {
     text-shadow: 2px 2px #7f9ea8;
 }
